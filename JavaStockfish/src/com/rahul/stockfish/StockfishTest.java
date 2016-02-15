@@ -10,6 +10,7 @@ public class StockfishTest {
 			System.out.println("Engine has started..");
 		} else {
 			System.out.println("Oops! Something went wrong..");
+			System.exit(-1); // or something else but do not continue
 		}
 
 		// send commands manually
